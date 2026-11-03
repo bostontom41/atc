@@ -97,9 +97,9 @@ h2 { font-size: clamp(40px, 5vw, 56px); }
 .value p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-2); }
 
 /* Projects */
-.projects { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 20px; }
+.projects { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 12px; }
 .project { display: flex; flex-direction: column; gap: 12px; }
-.project .photo { height: 260px; }
+.project .photo { height: 300px; }
 .project .tag { margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--red); }
 .project h3 { margin: 0; font-size: 20px; }
 
