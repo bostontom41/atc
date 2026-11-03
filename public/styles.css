@@ -169,17 +169,10 @@ section[id] { scroll-margin-top: 96px; }
 .socials { display: flex; align-items: center; gap: 14px; }
 .social { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; font-size: 14px; color: var(--ink-2) !important; }
 .social:hover { color: var(--red) !important; }
-.social-icon { width: 22px; height: 22px; }
-.brand-band { padding: 72px 0; }
-.brand-band-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 56px; text-align: left; }
-.brand-logo-large { width: 360px; max-width: 80%; height: auto; }
-.brand-quote { margin: 0; font-family: var(--display); font-weight: 700; text-transform: uppercase; font-size: clamp(40px, 5vw, 60px); line-height: 1; max-width: 560px; }
+.social-icon { width: 26px; height: 26px; }
 @media (max-width: 900px) {
   .socials { padding: 14px 0; border-bottom: 1px solid var(--line); gap: 8px; }
   .nav .socials a.social { border-bottom: 0; padding: 0 12px 0 0; }
-  .brand-band { padding: 48px 0; }
-  .brand-band-row { gap: 28px; text-align: center; }
-  .brand-band-row .stack { align-items: center; }
 }
 
 [hidden] { display: none !important; }

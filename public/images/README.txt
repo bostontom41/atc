@@ -11,7 +11,4 @@ project-1.jpg … project-6.jpg - the six "Recent work" cards
 
 Tip: keep each photo under ~500 KB (about 1600 px wide) so the site loads fast.
 
-facebook.svg / instagram.svg - optional: official icons for the top bar
-                 (download from Meta's brand resource pages). When present
-                 they replace the "Facebook" / "Instagram" text links.
-logo-large.png - large logo shown in the band under the top section
+facebook.png / instagram.png - icons in the top bar linking to the social pages
