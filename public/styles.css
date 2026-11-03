@@ -97,7 +97,7 @@ h2 { font-size: clamp(40px, 5vw, 56px); }
 .value p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-2); }
 
 /* Projects */
-.projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.projects { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 20px; }
 .project { display: flex; flex-direction: column; gap: 12px; }
 .project .photo { height: 260px; }
 .project .tag { margin: 0; font-size: 13px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--red); }
@@ -134,7 +134,7 @@ h2 { font-size: clamp(40px, 5vw, 56px); }
 .site-footer a { color: var(--pale-2); text-decoration: none; }
 .site-footer a:hover { color: #fff; }
 .footer-bottom { border-top: 1px solid #3A3734; padding-top: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 13px; }
-.footer-bottom span:last-child { display: flex; gap: 20px; }
+.footer-bottom > span:last-child { display: flex; gap: 20px; }
 
 /* Phone */
 @media (max-width: 900px) {
@@ -154,3 +154,5 @@ h2 { font-size: clamp(40px, 5vw, 56px); }
 
 .hero { border-top: 4px solid var(--red); }
 .service .num, .project .tag { color: var(--red); }
+
+section[id] { scroll-margin-top: 96px; }
