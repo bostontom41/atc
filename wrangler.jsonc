@@ -1,0 +1,9 @@
+// Cloudflare settings: serve the static website in ./public
+{
+  "name": "atc",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
